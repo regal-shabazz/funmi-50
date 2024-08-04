@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
 
             <div class="paragraph para-five">
-              <p>She has been married for 25years to Mr. Saheed Abiodun Azeez and their union is blessed with 4 Wonderful children; AbdulSamad, Saadat, Sabirat and Shaffiyyah.</p>
+              <p>She has been married for 25years to Mr. Saheed Abiodun Azeez and their union is blessed with 4 Wonderful children; AbdulSamad, Saadat, Sabirat and Shaffiyyah.</p>
                  <div class="figure-container">
                 <div class="figure">
                 <img src="../images/funmi-family-3.jpg" id="family-3"/>
