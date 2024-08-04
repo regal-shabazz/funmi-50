@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(246, 244, 239);
+}
+
+#guestbook {
+  background-image: url('../images/Colored\ Patterns.svg');
+  background-position: center;
+  padding-top: 80px;
+}
+
+#guestbook .container {
+  padding-bottom: 100px;
+}
+
+#guestbook h2 {
+  text-align: center;
+  margin-block: 30px;
+  color: #70540d;
+}
+
+.guestbook-entry {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 800px) {
+  #guestbook-entries {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .guestbook-entry {
+    width: 45%;
+    margin-inline: auto;
+    text-align: center;
+  }
+}

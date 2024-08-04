@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 90%;
+  max-width: 1024px;
+  margin-inline: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  background-color: #70540d;
+  color: rgb(246, 244, 239);
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+  width: max-content;
+  margin-inline: auto;
+}
+
+.active {
+  background-color: #70540d;
+  color: rgb(246, 244, 239);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 800px) {
+.logo {
+  margin-inline: unset; 
+}
+}

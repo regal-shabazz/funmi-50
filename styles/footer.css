@@ -1,0 +1,50 @@
+@keyframes slideInFromRight {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes slideOutToLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animated-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: transform 2s ease-in-out, opacity 1s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.animated-container.active {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  visibility: visible;
+}
+
+.animated-container:not(.active) {
+  transform: translateX(-100%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #70540d;
+  width: 100%;
+  z-index: 9999;
+  text-align: center;
+  color: rgb(246, 244, 239);
+  font-weight: bold;
+}
+
+footer .container {
+  position: relative;
+  min-height: 60px;
+  font-size: .8rem;
+}

@@ -1,0 +1,20 @@
+#gallery {
+  padding: 80px 0 100px;
+
+}
+
+#gallery h2 {
+  margin-block: 30px;
+}
+
+#gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+#gallery .gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

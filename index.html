@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Funmi @ 50 - Home</title>
+
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/splashscreen.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
+  </head>
+  <body>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+      import {
+        getFirestore,
+        collection,
+        addDoc,
+        query,
+        orderBy,
+        onSnapshot,
+        serverTimestamp
+      } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyA-TgbTfmHyaFReCkaFRG-toOnhSITWDcg",
+        authDomain: "abdulazeez-funmilola-birthday.firebaseapp.com",
+        projectId: "abdulazeez-funmilola-birthday",
+        storageBucket: "abdulazeez-funmilola-birthday.appspot.com",
+        messagingSenderId: "994191687897",
+        appId: "1:994191687897:web:31bcdfe63dc7ff7cdebec8",
+        measurementId: "G-XR9LHWEGRF",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const db = getFirestore(app);
+
+      // Make the Firestore db available globally
+      window.db = db;
+      window.collection = collection;
+      window.addDoc = addDoc;
+      window.query = query;
+      window.orderBy = orderBy;
+      window.onSnapshot = onSnapshot;
+      window.serverTimestamp = serverTimestamp;
+    </script>
+    <div id="splash-screen">
+      <div class="container">
+        <div id="balloon">
+          <img src="./images/gold-balloon.png" alt="gold balloons" />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

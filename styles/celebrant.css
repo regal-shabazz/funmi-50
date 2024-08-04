@@ -1,0 +1,93 @@
+
+#celebrant {
+  background-color: rgb(246, 244, 239);
+  background-image: url('../images/Colored\ Patterns.svg');
+  background-position: center;
+  padding-top: 80px;
+}
+
+#celebrant img {
+  width: 150px;
+  display: block;
+  border-radius: 10px;
+}
+
+#celebrant .container {
+  padding-bottom: 100px
+}
+
+#celebrant h2 {
+  text-align: center;
+  padding-block: 30px;
+  color: #70540d;
+  letter-spacing: 0;
+}
+
+.paragraph {
+  color: #70540d;
+  line-height: 1.5;
+}
+
+.paragraph p {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.36);
+}
+.figure-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-block: 20px;
+  border-radius: 10px;
+}
+
+.figure {
+  border: 5px solid goldenrod;
+  border-radius: 10px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.para-two .figure,
+.para-four .figure {
+  margin-inline: auto;
+}
+
+
+#celebrant #family-2 {
+  width: 300px;
+}
+
+#celebrant #family-3 {
+  width: 300px;
+}
+
+@media screen and (min-width: 800px) {
+  .paragraph {
+    width: 60%;
+    margin-inline: auto;
+    text-align: left;
+  }
+
+  #celebrant img {
+    width: 250px;
+  }
+
+  
+  .figure {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .para-four .figure {
+    height: unset;
+  }
+
+  #celebrant #family-2 {
+    width: 400px;
+  }
+  
+  #celebrant #family-3 {
+    width: 400px;
+  }
+}

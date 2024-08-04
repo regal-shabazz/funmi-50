@@ -1,0 +1,39 @@
+header {
+  padding-block: 20px;
+  font-weight: bold;
+  background-color: rgb(246, 244, 239);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  color: #70540d;
+}
+
+header .container {
+  min-height: unset;
+  text-align: center;
+}
+
+header a {
+  color: black;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
