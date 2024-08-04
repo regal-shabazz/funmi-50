@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
           <nav>
             <ul>
               <li><a href="../index.html">Home</a></li>
-              <li><a href="./celebrant.html">The Celebrant</a></li>
+              <li><a href="../pages/celebrant.html">The Celebrant</a></li>
              
-              <li><a href="./guestbook.html">GuestBook</a></li>
+              <li><a href="../pages/guestbook.html">GuestBook</a></li>
             </ul>
           </nav>
         </div>
