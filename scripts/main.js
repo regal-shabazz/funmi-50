@@ -117,7 +117,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
                   <p>With a strong educational background in Business Administration and Public Administration, she has held various roles, including Head of Department for Agric and Social Services in Eti-Osa East LCDA. A skilled entrepreneur and family woman, she enjoys fashion designing, hat making, and bead making in her leisure time. Happily married for 25 years with four wonderful children.</p>
                 </div>
                 
-                <p style="font-style: ita;ic">More about the Celebrant, <a href="../pages/celebrant.html" style="text-decoration: underline">click here</span></a></p>
+                <p style="font-style: ita;ic">More about the Celebrant, <a href="./pages/celebrant.html" style="text-decoration: underline">click here</span></a></p>
               </div>
             </section>
 
