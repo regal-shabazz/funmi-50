@@ -72,7 +72,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
                      <h2>Well Wishers</h2>
 
                     <div id="wishes-card">
-                      <p id="wish">//wish displayed here</p>
+                      <p id="wish"></p>
                       <br>
                       <span id="wisher-info" style="font-weight: bold"></span>
                     </div>
