@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2>Meet the Celebrant</h2>
   
             <div class="paragraph para-one">
-              <p>Abdulazeez bushurat funmilola nee gbajabiamila  was born on the 15th of August 1974 to the family of imam T.O.S gbajabiamila who hails from Apongbon, Lagos island in Lagos state.</p>
+              <p>Abdulazeez Bushurat Funmilola Nee Gbajabiamila  was born on the 15th of August 1974 to the family of Imam T.O.S Gbajabiamila who hails from Apongbon, Lagos Island in Lagos state.</p>
               <div class="figure-container">
                 <div class="figure">
                 <img src="../images/funmi-family-4.jpg" id="with-dad"/>
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
 
             <div class="paragraph para-two">
-              <p>She started her early education at Zumural Islamiyyah primary school,Lagos island and from there, she proceeded to Hope height school, Ebute elefun,Sura, Lagos island for her secondary education. She had her ordinary national diploma (OND) and Higher National diploma (HND) in business administration and management at federal polytechnic Ede,Osun state, she did her Post graduate diploma (PGD) and Masters in public administration at National Open University (N.O.U.N) Lagos state.</p>
+              <p>She started her early education at Zumural Islamiyyah primary school, Lagos Island and from there, she proceeded to Hope height school, Ebute Elefun, Sura, Lagos Island for her secondary education. She had her Ordinary National Diploma (OND) and Higher National Diploma (HND) in business administration and management at Federal Polytechnic Ede, Osun state, she did her Post Graduate Diploma (PGD) and Masters in public administration at National Open University (N.O.U.N) Lagos state.</p>
 
                <div class="figure-container">
                 <div class="figure">
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
 
             <div class="paragraph para-three">
-              <p>She was employed into civil service in November 1995 as a clerical officer on grade level 04 at Lagos island Local government, after some years she was put in charge of the Lagos island community skill acquisition center at phase II Adeniji Adele.
+              <p>She was employed into civil service in November 1995 as a clerical officer on grade level 04 at Lagos Island Local Government, after some years she was put in charge of the Lagos Island community skill acquisition center at phase II Adeniji Adele.
               She was then posted out to Iru Victoria Island LCDA where she served as coordinator for the skill acquisition center, she also worked at Eti-Osa Local government for a year and she is currently serving as Head of department for Agric and social services in Eti-Osa East LCDA.
               </p>
 
