@@ -129,34 +129,43 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  async function displayGuestbookEntries() {
+  function displayWishes() {
     const guestbookEntriesContainer = document.getElementById("guestbook-entries");
-
-    try {
-      const entriesQuery = window.collection(window.db, "birthday-wishes");
-      const q = window.query(entriesQuery, window.orderBy("timestamp"));
-
-      window.onSnapshot(q, (querySnapshot) => {
-        guestbookEntriesContainer.innerHTML = ""; // Clear existing entries
-
-        querySnapshot.forEach((doc) => {
-          const data = doc.data();
-          const entryDiv = document.createElement("div");
-          entryDiv.classList.add("guestbook-entry");
-
-          entryDiv.innerHTML = `
-            
-            <p>${data.message}</p>
-             <p style="margin-top: 20px">- <strong>${data.firstName} ${data.lastName}</strong>, ${data.moreInfo}</p>
-          `;
-
-          guestbookEntriesContainer.appendChild(entryDiv);
-        });
+  
+    // Show loading indicator
+    guestbookEntriesContainer.innerHTML = "Loading...";
+  
+    const q = query(
+      collection(db, "birthday-wishes"),
+      orderBy("timestamp", "desc")
+    );
+  
+    onSnapshot(q, (querySnapshot) => {
+      const wishes = [];
+      
+      querySnapshot.forEach((doc) => {
+        wishes.push(doc.data());
       });
-    } catch (error) {
-      console.error("Error fetching guestbook entries: ", error);
-    }
+  
+      // Remove loading indicator and display wishes
+      guestbookEntriesContainer.innerHTML = ""; // Clear loading text
+  
+      if (wishes.length > 0) {
+        wishes.forEach((wish) => {
+          const wishDiv = document.createElement("div");
+          wishDiv.classList.add("guestbook-entry");
+          wishDiv.innerHTML = `
+            <p>${wish.message}</p>
+            <p style="margin-top: 20px">- <strong>${wish.firstName} ${wish.lastName}</strong>, ${wish.moreInfo}</p>
+          `;
+          guestbookEntriesContainer.appendChild(wishDiv);
+        });
+      } else {
+        guestbookEntriesContainer.innerHTML = "No wishes yet. Be the first to wish!";
+      }
+    });
   }
+  
 
   function highlightCurrentPage() {
     const links = document.querySelectorAll("nav ul li a");
