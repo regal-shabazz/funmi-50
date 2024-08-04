@@ -37,7 +37,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
               <a href="./index.html" class="logo">#Funmilola@50!</a>
               <nav>
                 <ul>
-                  <li><a href="./index.html">Home</a></li>
+                  <li><a class="active" href="./index.html">Home</a></li>
                   <li><a href="./pages/celebrant.html">The Celebrant</a></li>
                   
                   <li><a href="./pages/guestbook.html">GuestBook</a></li>
