@@ -18,9 +18,9 @@
 }
 
 #gallery .gallery-grid video {
-  width: 100%;
+  width: 80%;
   height: 300px;
   border-radius: 5px;
   border: 5px solid goldenrod;
-
+  margin-inline: auto;
 }
