@@ -25,35 +25,35 @@ document.addEventListener("DOMContentLoaded", () => {
           <h2>Gallery - Video Greetings</h2>
           
           <div class="gallery-grid gallery-1">
-            <video controls poster="./images/thmbnail1.png">
+            <video controls poster="../images/thmbnail1.png">
             <source src="./videos/video1.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video controls poster="./images/thmbnail2.png">
+          <video controls poster="../images/thmbnail2.png">
             <source src="./videos/video2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video controls poster="./images/thmbnail3.png">
+          <video controls poster="../images/thmbnail3.png">
             <source src="./videos/video3.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video controls poster="./images/thmbnail4.png">
+          <video controls poster="../images/thmbnail4.png">
             <source src="./videos/video4.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video controls poster="./images/thmbnail5.png">
+          <video controls poster="../images/thmbnail5.png">
             <source src="./videos/video5.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video controls poster="./images/thmbnail6.png">
+          <video controls poster="../images/thmbnail6.png">
             <source src="./videos/video6.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video controls poster="./images/thmbnail7.png">
+          <video controls poster="../images/thmbnail7.png">
             <source src="./videos/video6.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video controls poster="./images/thmbnail8.png">
+          <video controls poster="../images/thmbnail8.png">
             <source src="./videos/video6.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
