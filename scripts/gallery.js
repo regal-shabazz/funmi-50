@@ -50,11 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
             Your browser does not support the video tag.
           </video>
           <video controls poster="../images/thmbnail7.png">
-            <source src="../videos/video6.mp4" type="video/mp4">
+            <source src="../videos/video7.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <video controls poster="../images/thmbnail8.png">
-            <source src="../videos/video6.mp4" type="video/mp4">
+            <source src="../videos/video8.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           </div>
