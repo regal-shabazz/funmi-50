@@ -39,7 +39,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
                 <ul>
                   <li><a class="active" href="./index.html">Home</a></li>
                   <li><a href="./pages/celebrant.html">The Celebrant</a></li>
-                  
+                      <li><a href="./pages/gallery.html">Gallery</a></li>
                   <li><a href="./pages/guestbook.html">GuestBook</a></li>
                 </ul>
               </nav>

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const HEADER = `
       <header>
         <div class="container">
-          <a href="./index.html" class="logo">#Funmilola@50!</a>
+          <a href="../index.html" class="logo">#Funmilola@50!</a>
           <nav>
             <ul>
               <li><a href="../index.html">Home</a></li>
@@ -19,25 +19,49 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     const MAIN = `
-      <main>
-        <section id="gallery">
-          <div class="container">
-            <h2>Gallery</h2>
-
-            <h3>Mrs. Abdulazeez Funmilola at 49</h3>
-            
-            <div class="gallery-grid gallery-1">
-              <img src="./images/image1.jpg" alt="Image 1">
-              <img src="./images/image2.jpg" alt="Image 2">
-              <img src="./images/image3.jpg" alt="Image 3">
-              <img src="./images/image4.jpg" alt="Image 4">
-              <img src="./images/image5.jpg" alt="Image 5">
-              <img src="./images/image6.jpg" alt="Image 6">
-            </div>
+    <main>
+      <section id="gallery">
+        <div class="container">
+          <h2>Gallery - Video Greetings</h2>
+          
+          <div class="gallery-grid gallery-1">
+            <video controls>
+              <source src="../videos/video1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="../videos/video2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="../videos/video3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="../videos/video4.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="../videos/video5.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="../videos/video6.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="../videos/video7.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls>
+              <source src="../videos/video8.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
-        </section>
-      </main>
-    `;
+        </div>
+      </section>
+    </main>
+  `;
 
     const FOOTER = `
       <footer>
@@ -62,6 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     initializeCountdown()
     cycleAnimatedContainers()
+    highlightCurrentPage()
   }
 
   function initializeCountdown() {
@@ -102,6 +127,15 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(showNextContainer, 7000); // Change every 7 seconds
   }
 
+  function highlightCurrentPage() {
+    const links = document.querySelectorAll("nav ul li a");
+    const currentURL = window.location.href;
 
+    links.forEach(link => {
+      if (link.href === currentURL) {
+        link.classList.add("active");
+      }
+    });
+  }
   renderPage();
 });

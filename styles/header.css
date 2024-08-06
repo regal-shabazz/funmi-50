@@ -17,6 +17,7 @@ header .container {
 
 header a {
   color: black;
+  font-size: .8rem;
 }
 
 nav {
