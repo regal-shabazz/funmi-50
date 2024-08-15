@@ -93,12 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div id="date" class="animated-container">
             <p>Date: 17th August, 2024</p>
           </div>
-          <div id="venue" class="animated-container">
-            <p>Venue: 7, Kayode Oni Animashaun Street, off Emmanuel Onoji crescent, Olokonla Bus stop(beside Readington school opposite Total petrol station)</p>
-          </div>
-          <div id="color-of-the-day" class="animated-container">
-            <p>Time: 10am</p>
-          </div>
+ 
         </div>
       </footer>
     `;
